@@ -1,0 +1,9 @@
+name: coverage
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - bowtie2=2.4.1
+  - metabat2=2.15
+  - samtools=1.7

@@ -1,0 +1,10 @@
+name: binners
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - maxbin2=2.2.7
+  - metabat2=2.15
+  - das_tool=1.1.2
+  - concoct=1.1.0

@@ -1,1 +1,4 @@
-.nextflow
+.nextflow*
+nextflow
+data/SRR4046827_1.fastq.gz
+data/SRR4046827_2.fastq.gz

@@ -36,4 +36,72 @@ tools above
 
 - Output can be found in `results/` by default
 
-
+    results
+    ├── 0.trimmed_reads
+    ├── 1a_metaspades
+    ├── 1b_idba_ud
+    ├── 1c_megahit
+    ├── 2_coverages
+    ├── 3a_metabat2
+    │   ├── idba_ud_default_metabat2_default
+    │   ├── idba_ud_default_metabat2_low_score
+    │   ├── idba_ud_default_metabat2_more_edges
+    │   ├── idba_ud_default_metabat2_small_bins
+    │   ├── megahit_default_metabat2_default
+    │   ├── megahit_default_metabat2_low_score
+    │   ├── megahit_default_metabat2_more_edges
+    │   ├── megahit_default_metabat2_small_bins
+    │   ├── megahit_large_metabat2_default
+    │   ├── megahit_large_metabat2_low_score
+    │   ├── megahit_large_metabat2_more_edges
+    │   ├── megahit_large_metabat2_small_bins
+    │   ├── megahit_sensitive_metabat2_default
+    │   ├── megahit_sensitive_metabat2_low_score
+    │   ├── megahit_sensitive_metabat2_more_edges
+    │   ├── megahit_sensitive_metabat2_small_bins
+    │   ├── metaspades_default_metabat2_default
+    │   ├── metaspades_default_metabat2_low_score
+    │   ├── metaspades_default_metabat2_more_edges
+    │   ├── metaspades_default_metabat2_small_bins
+    │   ├── metaspades_plasmidspades_metabat2_default
+    │   ├── metaspades_plasmidspades_metabat2_low_score
+    │   ├── metaspades_plasmidspades_metabat2_more_edges
+    │   └── metaspades_plasmidspades_metabat2_small_bins
+    ├── 3b_maxbin2
+    │   ├── idba_ud_default_maxbin2_default
+    │   ├── idba_ud_default_maxbin2_high_iteration
+    │   ├── idba_ud_default_maxbin2_low_prob
+    │   ├── megahit_default_maxbin2_default
+    │   ├── megahit_default_maxbin2_high_iteration
+    │   ├── megahit_default_maxbin2_low_prob
+    │   ├── megahit_large_maxbin2_default
+    │   ├── megahit_large_maxbin2_high_iteration
+    │   ├── megahit_large_maxbin2_low_prob
+    │   ├── megahit_sensitive_maxbin2_default
+    │   ├── megahit_sensitive_maxbin2_high_iteration
+    │   ├── megahit_sensitive_maxbin2_low_prob
+    │   ├── metaspades_default_maxbin2_default
+    │   ├── metaspades_default_maxbin2_high_iteration
+    │   ├── metaspades_default_maxbin2_low_prob
+    │   ├── metaspades_plasmidspades_maxbin2_default
+    │   ├── metaspades_plasmidspades_maxbin2_high_iteration
+    │   └── metaspades_plasmidspades_maxbin2_low_prob
+    └── 3c_concoct
+        ├── idba_ud_default_concoct_big_kmer
+        ├── idba_ud_default_concoct_default
+        ├── idba_ud_default_concoct_low_clusters
+        ├── megahit_default_concoct_big_kmer
+        ├── megahit_default_concoct_default
+        ├── megahit_default_concoct_low_clusters
+        ├── megahit_large_concoct_big_kmer
+        ├── megahit_large_concoct_default
+        ├── megahit_large_concoct_low_clusters
+        ├── megahit_sensitive_concoct_big_kmer
+        ├── megahit_sensitive_concoct_default
+        ├── megahit_sensitive_concoct_low_clusters
+        ├── metaspades_default_concoct_big_kmer
+        ├── metaspades_default_concoct_default
+        ├── metaspades_default_concoct_low_clusters
+        ├── metaspades_plasmidspades_concoct_big_kmer
+        ├── metaspades_plasmidspades_concoct_default
+        └── metaspades_plasmidspades_concoct_low_clusters
